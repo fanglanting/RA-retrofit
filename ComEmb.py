@@ -129,7 +129,7 @@ if __name__ == '__main__':
 	
 
 	ce= ComEmb(embedsfile, netfile, vocabfile, rellist, n_negative=5, testmodel=testmodel)
-	ce.train(gamma=gamma,epoch_num= 50, lr=learning_rate, batch_size=batch_size,emnames='Multi')
+	ce.train(gamma=gamma,epoch_num= 200, lr=learning_rate, batch_size=batch_size,emnames='Multi')
 
 
 
